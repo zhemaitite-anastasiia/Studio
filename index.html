@@ -102,17 +102,100 @@ border-bottom-right-radius:inherit;bottom:0;color:#fff;left:0;padding:20px 5px 5
     <header class="header bg-cream bg-transition" style="">
         <div class="pad" >
             <div class="header__main" data-v-597209cc=""> 
-                
-    
-        <div class="text-wrapper" data-v-caca9232="" style="width: calc(100% - 80px);
+          
+                  <div id="slider">
+                    <div class="container">
+                      <div class="slide">
+                        <h3>Shaping modern businesses.</h3>
+                       
+                      </div>
+                      <div class="slide">
+                        <h3>Branding for a new ideas.</h3>
+                      
+                      </div>
+                      <div class="slide">
+                        <h3>Defining digital expiriences.</h3>
+                        
+                      </div>
+                      <div class="slide">
+                        <h3>Shaping modern businesses.</h3>
+                    
+                      </div>
+                      <div class="slide">
+                        <h3>Branding for a new ideas.</h3>
+                     
+                      </div>
+                      <div class="slide">
+                        <h3>Defining digital expiriences.</h3>
+                     
+                      </div>
+                    </div>
+                  </div>
+                  <style>
+                  #slider,  #slider .slide{
+  width: 300px;
+  height: 150px;
+}
+#slider {
+  overflow: hidden;
+  margin: 0 auto;
+  font-size: 1.2em;
+  background: #fdfafa;
+}
+#slider .container {
+  position: relative;
+  width: 9000px; /* Assign an insanely large width */
+  top: 0;
+  right: 0;
+  animation: slide-animation 25s infinite;
+}
+#slider .slide {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+
+/* [ANIMATION] */
+@keyframes slide-animation {
+  0% { 
+    opacity: 0;
+    right: 0;
+  }
+  11% {
+    opacity: 1;
+    right: 0; 
+  }
+  22% { right: 100%; }
+  33% { right: 100%; }
+  44% { right: 200%; }
+  55% { right: 200%; }
+  66% { right: 300%; }
+  77% { right: 300%; }
+  88% {
+    opacity: 1;
+    right: 400%; 
+  }
+  100% {
+    opacity: 0;
+    right: 400%;
+  }
+}
+
+/* [DOES NOT MATTER] */
+html, body {
+  font-family: arial;
+  background: #ffe9d8;
+}
+h1 {
+  text-align: center;
+}</style>
+        <!-- <div class="text-wrapper" data-v-caca9232="" style="width: calc(100% - 80px);
         float: left;
         margin-left: 40px;
         font-size:100px;
         line-height:112px;"> 
-             <!-- <h1 class="headline_text">Shaping modern businesses</h1>  -->
-   
-       
-        <!-- <div class="text-wrapper"> -->
+  
              
                 <p><span id="spin"></span></p>
                 <style>#spin {
@@ -140,7 +223,7 @@ border-bottom-right-radius:inherit;bottom:0;color:#fff;left:0;padding:20px 5px 5
             
 
 
-</div>
+</div> -->
 </div>  
 
 </div>
